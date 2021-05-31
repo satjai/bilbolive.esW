@@ -1,6 +1,7 @@
 $(document).ready(function(){ 
-  var pathname = window.location;
-  console.log(pathname);
+  var pathname =  window.location.origin ;
+  
+  
   $("#enviar").click(function(){ 
     var unindexed_array =  $("#platos").serializeArray();
     var indexed_array = {};
@@ -13,7 +14,7 @@ $(document).ready(function(){
     $.ajax({
       data: indexed_array,
       type: "POST",
-      url: pathname+"Index/page",
+      url: pathname+"/bilbolive.esW/src/Index/page",
       success: function(data){
         $("#target").html(data);
       }});
