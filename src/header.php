@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="author" content="Jose">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	   <base href="https://192.168.0.156/bilbolive.esW/src/" />
+	   <base href="https://bilbolive.es/" />
 	 <link href="style.css" rel="stylesheet" />
 	<?php // header("Content-type: application/json; charset=utf-8"); ?>
 	<title>XAMP.BILBOLIVE.ES</title>
