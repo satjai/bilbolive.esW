@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionContent>
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-ddb543c7-ea0c-4b00-95b9-d4bfa2b4e411">
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ds:Reference Id="Reference-0e79b719-635c-476f-a59e-8ac3ba14365d" URI="">
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ds:DigestValue>gu9FwzA+Srz9+s6bSHl9QpKvpN7unxuF8jUCaMEpHXA=</ds:DigestValue>
+			</ds:Reference>
+			<ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-ddb543c7-ea0c-4b00-95b9-d4bfa2b4e411">
+				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ds:DigestValue>5Gawg8WNL0sJL3zfWvgnCEXtm61nj4SVD+xnZ79Usx4=</ds:DigestValue>
+			</ds:Reference>
+			<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-ddb543c7-ea0c-4b00-95b9-d4bfa2b4e411">
+				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ds:DigestValue>z0l+7uN0B0AzBpHJnAf44C6VrHj4aiYS40p9ctl2eWw=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue Id="SignatureValue-ddb543c7-ea0c-4b00-95b9-d4bfa2b4e411">Ji+ndlqxuc+dU7NmD1N44kSOh/endxEpdArLkcMJmd+O9BJdor6HPkSWaG45xtqpA0wKqxm0v7GbNcXVwq9eRs2gD74mC+B2vdHnME5xhBOAPxc2VypqlDGJ5yDUm0Si4CJCvbB7PeWv4T2Oh6uJForXMgDrqOZralQ0/hA52t2Tn0WJu2OPtT7fEwkLh8vVifLyx1Qwz3v1CFSnVeV9XnUYfQ6xcEWrT/jTwLU2lom5OedNvA5FludMVQ9ag5JFeq1NlEA8FO5N92eM8/RzzvsSmiOupmLOjIZbZKzVn+p0w084tUp1m04Cni9WR9lOqX8Y6jpN6t1NecLPAddtmQ==</ds:SignatureValue>
+		<ds:KeyInfo Id="KeyInfoId-Signature-ddb543c7-ea0c-4b00-95b9-d4bfa2b4e411">
+			<ds:X509Data>
+				<ds:X509Certificate>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</ds:X509Certificate>
+			</ds:X509Data>
+		</ds:KeyInfo>
+		<ds:Object Id="XadesObjectId-43208d10-650c-4f42-af80-fc889962c9ac">
+			<xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-012b8df6-b93e-4867-9901-83447ffce4bf" Target="#Signature-ddb543c7-ea0c-4b00-95b9-d4bfa2b4e411">
+				<xades:SignedProperties Id="SignedProperties-Signature-ddb543c7-ea0c-4b00-95b9-d4bfa2b4e411">
+					<xades:SignedSignatureProperties>
+						<xades:SigningTime>2021-04-23T17:39:23-05:00</xades:SigningTime>
+							<xades:SigningCertificate>
+								<xades:Cert>
+									<xades:CertDigest>
+										<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+										<ds:DigestValue>LKDP03V4aDC+tKwZ06ataPchwtCXlJaJSCjXm47cFgA=</ds:DigestValue>
+									</xades:CertDigest>
+									<xades:IssuerSerial>
+										<ds:X509IssuerName>CN=AC FNMT Usuarios, OU=Ceres, O=FNMT-RCM, C=ES</ds:X509IssuerName>
+										<ds:X509SerialNumber>86020751919397654678034818141705186808</ds:X509SerialNumber>
+									</xades:IssuerSerial>
+								</xades:Cert>
+							</xades:SigningCertificate>
+							<xades:SignaturePolicyIdentifier>
+							<xades:SignaturePolicyId>
+								<xades:SigPolicyId>
+									<xades:Identifier>https://ticketbai.eus/politicafirma/</xades:Identifier>
+									<xades:Description>Política de firma para facturas electrónicas TicketBAI</xades:Description>
+								</xades:SigPolicyId>
+								<xades:SigPolicyHash>
+									<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+									<ds:DigestValue>sbcECQ7v+y/m3OcBCJyvmkBhtFs=</ds:DigestValue>
+								</xades:SigPolicyHash>
+							</xades:SignaturePolicyId>
+						</xades:SignaturePolicyIdentifier>
+						<xades:SignerRole>
+							<xades:ClaimedRoles>
+								<xades:ClaimedRole>supplier</xades:ClaimedRole>
+							</xades:ClaimedRoles>
+						</xades:SignerRole>
+					</xades:SignedSignatureProperties>
+				</xades:SignedProperties>
+			</xades:QualifyingProperties>
+		</ds:Object>
+	</ds:Signature>
+</ExtensionContent>

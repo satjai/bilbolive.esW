@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbai:TicketBai xmlns:tbai="urn:ticketbai:emision">
+	<Cabecera>
+		<IDVersionTBAI>1.2</IDVersionTBAI>
+	</Cabecera>
+	<Sujetos>
+		<Emisor>
+			<NIF>99999990S</NIF>
+			<ApellidosNombreRazonSocial>Binovo IT</ApellidosNombreRazonSocial>
+		</Emisor>
+	</Sujetos>
+	<Factura>
+		<CabeceraFactura>
+			<NumFactura>100</NumFactura>
+			<FechaExpedicionFactura>16-02-2021</FechaExpedicionFactura>
+			<HoraExpedicionFactura>18:51:07</HoraExpedicionFactura>
+			<FacturaSimplificada>S</FacturaSimplificada>
+		</CabeceraFactura>
+		<DatosFactura>
+			<DescripcionFactura>Invoice description</DescripcionFactura>
+			<DetallesFactura>
+				<IDDetalleFactura>
+					<DescripcionDetalle>Line 01</DescripcionDetalle>
+					<Cantidad>1.00</Cantidad>
+					<ImporteUnitario>250.00</ImporteUnitario>
+					<Descuento>0.00</Descuento>
+					<ImporteTotal>302.50</ImporteTotal>
+				</IDDetalleFactura>
+			</DetallesFactura>
+			<ImporteTotalFactura>302.50</ImporteTotalFactura>
+			<Claves>
+				<IDClave>
+					<ClaveRegimenIvaOpTrascendencia>01</ClaveRegimenIvaOpTrascendencia>
+				</IDClave>
+			</Claves>
+		</DatosFactura>
+		<TipoDesglose>
+			<DesgloseFactura>
+				<Sujeta>
+					<NoExenta>
+						<DetalleNoExenta>
+							<TipoNoExenta>S1</TipoNoExenta>
+							<DesgloseIVA>
+								<DetalleIVA>
+									<BaseImponible>250.00</BaseImponible>
+									<TipoImpositivo>21.00</TipoImpositivo>
+									<CuotaImpuesto>52.50</CuotaImpuesto>
+								</DetalleIVA>
+							</DesgloseIVA>
+						</DetalleNoExenta>
+					</NoExenta>
+				</Sujeta>
+			</DesgloseFactura>
+		</TipoDesglose>
+	</Factura>
+	<HuellaTBAI>
+		<Software>
+			<LicenciaTBAI>TBAIGIPRE00000000003</LicenciaTBAI>
+			<EntidadDesarrolladora>
+				<NIF>B20990602</NIF>
+			</EntidadDesarrolladora>
+			<Nombre>Odoo Binovo</Nombre>
+			<Version>0.1</Version>
+		</Software>
+	</HuellaTBAI>
+	<ExtensionContent>
+	</ExtensionContent>
+</tbai:TicketBai>
